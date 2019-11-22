@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import './App.css';
-import Ingredients from "./components/Ingredients/Ingredients";
+import Ingredients from "./components/IngredientsList/IngredientsList";
 import Burger from "./components/Burger/Burger";
 
 class App extends Component {
@@ -41,9 +41,8 @@ class App extends Component {
         </div>
         <div>
           <Burger ingredients={this.state.ingredients}
-                  counter={this.state.totalPrice}/>
+                  totalPrice={this.state.totalPrice}/>
         </div>
-
       </div>
     );
   }

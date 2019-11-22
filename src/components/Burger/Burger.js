@@ -21,7 +21,7 @@ const Burger = (props) => {
     {ingredientsComponents}
     <div className='BreadBottom'></div>
   </div>
-  <p>total price: {props.counter}</p>
+      <p>total price: {props.totalPrice}</p>
   </div>
 
    );

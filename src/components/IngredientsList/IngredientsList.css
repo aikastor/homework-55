@@ -1,0 +1,9 @@
+.IngredientListItem {
+    margin: 5px;
+}
+.IngredientListItem > img {
+    margin: 5px;
+}
+.IngredientListItem > span {
+    margin: 5px;
+}
